@@ -6,11 +6,11 @@ namespace Master
     {
         static void Main(string[] args)
         {
-            /* Begin1◦. Дана сторона квадрата a. Найти его периметр P = 4·a. */
-            Console.WriteLine("Введите сторону квадрата a:");
+            /* Begin2◦. Дана сторона квадрата a. Найти его площадь S = a2. */
+            Console.WriteLine("Введите сторону квадрата a");
             double a = Convert.ToDouble(Console.ReadLine());
-            double P = 4 * a;
-            Console.WriteLine("Периметр квадрата равен {0}", P);
+            double S = a * a;
+            Console.WriteLine("Площадь квадрата равна " + S);
             Console.ReadLine();
         }
     }
